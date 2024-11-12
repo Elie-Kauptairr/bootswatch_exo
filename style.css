@@ -1,0 +1,339 @@
+/* Footer */
+.footer {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Style pour la navbar */
+.navbar {
+  padding: 10px 20px; /* Espacement pour un aspect plus "aéré" */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Légère ombre pour de la profondeur */
+  background-color: #121212; /* Couleur de fond sombre */
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 1.2em;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff;
+  margin-left: 15px; /* Espacement entre les liens */
+  transition: color 0.3s ease; /* Transition douce pour l'effet de survol */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #3b82f6; /* Couleur primaire au survol */
+}
+
+/* Style pour le formulaire d'authentification */
+.auth-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #1f1f1f; /* Fond sombre pour cohérence avec la navbar */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.auth-form h2 {
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.auth-form .form-control {
+  background-color: #2d2d2d;
+  color: #ffffff;
+  border: 1px solid #3b82f6; /* Couleur primaire */
+}
+
+.auth-form .form-control:focus {
+  border-color: #3b82f6;
+  outline: none;
+  box-shadow: 0 0 5px rgba(59, 130, 246, 0.5); /* Légère lueur au focus */
+}
+
+.auth-form .form-check-label {
+  color: #d1d5db;
+}
+
+.auth-form .btn {
+  width: 100%;
+}
+
+.auth-form p {
+  text-align: center;
+  color: #d1d5db;
+}
+
+/* Style de base pour les bannières */
+.banner {
+  color: #ffffff;
+  text-align: center;
+  padding: 50px 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Grande bannière (accueil) */
+.large-banner {
+  background-image: url('images/banner-large.jpg'); /* Remplace avec ton image */
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Couche sombre pour le texte */
+  color: #ffffff;
+}
+
+.large-banner h1 {
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.index_h1 {
+  text-align: center;
+}
+
+.large-banner p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+/* Petite bannière (autres pages) */
+.small-banner {
+  background-color: #3b82f6; /* Couleur primaire */
+  padding: 20px;
+}
+
+.small-banner h2 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+/* Style de base pour les cartes */
+.card {
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Carte d'événement */
+.event-card .card-top {
+  border-radius: 8px 8px 0 0;
+  height: 200px;
+  object-fit: cover;
+}
+
+.event-card .card-body {
+  background-color: #1f1f1f; /* Fond sombre pour le texte */
+  color: #ffffff;
+}
+
+/* Carte de participant (horizontale) */
+.participant-card {
+  background-color: #121212;
+}
+
+.participant-card .card-body {
+  color: #d1d5db;
+}
+
+.participant-card {
+  height: 50%;
+  object-fit: cover;
+}
+
+/* Carte de ville */
+.city-card {
+  background-color: #3b82f6; /* Couleur primaire */
+  color: #ffffff;
+}
+
+/* Style de la section des commentaires */
+.comments-section {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #1f1f1f; /* Fond sombre pour la section */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+}
+
+.comments-section h3, .comments-section h4 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Molécule de commentaire */
+.comment {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #3b82f6; /* Ligne de séparation */
+  padding-bottom: 15px;
+}
+
+.comment .avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+  object-fit: cover;
+}
+
+.comment-content h5 {
+  margin: 0;
+  font-size: 1.1em;
+  color: #3b82f6; /* Couleur primaire pour le nom de l'auteur */
+}
+
+.comment-date {
+  font-size: 0.9em;
+  color: #d1d5db;
+  margin-bottom: 5px;
+}
+
+/* Formulaire d'ajout de commentaire */
+.add-comment-form {
+  margin-top: 20px;
+}
+
+.add-comment-form .form-control {
+  background-color: #2d2d2d;
+  color: #ffffff;
+  border: 1px solid #3b82f6; /* Bordure de couleur primaire */
+}
+
+.add-comment-form .form-control:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 5px rgba(59, 130, 246, 0.5);
+  outline: none;
+}
+
+/* Style pour la section de présentation de ressource */
+.resource-presentation {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #1f1f1f;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+}
+
+.resource-presentation h2, .resource-presentation h3 {
+  color: #3b82f6; /* Couleur primaire pour les titres */
+}
+
+.resource-presentation .event-date {
+  font-size: 1.1em;
+  color: #d1d5db;
+  margin-bottom: 10px;
+}
+
+.resource-presentation {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.details {
+  background-color: #2d2d2d;
+  padding: 20px;
+  border-radius: 8px;
+  color: #ffffff;
+}
+
+.info-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.info-list li {
+  padding: 8px 0;
+  border-bottom: 1px solid #3b82f6; /* Ligne de séparation */
+  color: #d1d5db;
+}
+
+/* Style pour la section de présentation d'un élément */
+.element-presentation {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #1f1f1f; /* Fond sombre pour cohérence */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  overflow: hidden;
+}
+
+.element-presentation h2 {
+  color: #3b82f6; /* Couleur primaire pour le titre */
+  margin-bottom: 15px;
+}
+
+.element-presentation {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* Style pour la section de témoignages */
+.testimonials-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #1f1f1f;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  text-align: center;
+}
+
+.testimonials-section h3 {
+  color: #3b82f6;
+  margin-bottom: 20px;
+}
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #2d2d2d;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial .avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+  object-fit: cover;
+}
+
+.testimonial-content {
+  text-align: left;
+}
+
+.testimonial-text {
+  font-size: 1em;
+  color: #d1d5db;
+}
+
+.testimonial-author {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #3b82f6;
+}
+
+.image {
+  width: 300px;
+  text-align: center;
+}
